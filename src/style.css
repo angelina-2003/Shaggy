@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #ffe9d6;
+    padding: 20px;
+}
+
+#pet-box img {
+    width: auto;
+    height: 300px;
+    margin-bottom:20px;
+}
+
+#actions button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background: #ffb381;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#actions button:hover {
+    background: #ff9357;
+}
