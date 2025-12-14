@@ -6,10 +6,10 @@ updateUI(shaggy);
 
 setInterval(() => {
 
-    shaggy.hunger -= 10;
-    shaggy.energy -= 10;
-    shaggy.happiness -= 10;
-
+    if (shaggy.hunger > 0) shaggy.hunger -= 5;
+    if (shaggy.energy > 0) shaggy.energy -= 5;
+    if (shaggy.happiness > 0) shaggy.happiness -= 5;
+    
     evaluateMood(shaggy);
     updateUI(shaggy);
 

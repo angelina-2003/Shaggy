@@ -1,6 +1,6 @@
 export const shaggy = {
     hunger: 80,
     energy: 80,
-    happiness: 75,
+    happiness: 80,
     mood: "happy"
 };

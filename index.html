@@ -13,16 +13,40 @@
             <img id="shaggy-img" src="assets/shaggy-happy.png" alt="Shaggy">
         </div>
             
+
+
         <div id="stats">
-            <p>Hunger: <span id="hunger-value">80</span></p>
-            <p>Energy: <span id="energy-value">80</span></p>
-            <p>Happiness: <span id="happiness-value">80</span></p>
+
+            <div class="stat">
+                <span>Hunger</span>
+                <div class="bar">
+                    <div id="hunger-bar" class="fill"></div>
+                </div>
+            </div>
+
+            <div class="stat">
+                <span>Energy</span>
+                <div class="bar">
+                    <div id="energy-bar" class="fill"></div>
+                </div>
+            </div>
+
+            <div class="stat">
+                <span>Happiness</span>
+                <div class="bar">
+                    <div id="happiness-bar" class="fill"></div>
+                </div>
+            </div>
+
         </div>
+
+
 
         <div id="actions">
             <button id="feed-button">Feed</button>
-            <button id="play-button">Play</button>
             <button id="sleep-button">Sleep</button>
+            <button id="play-button">Play</button>
+            
         </div>
 
         <script type="module" src="src/main.js"></script>
